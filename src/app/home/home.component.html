@@ -1,0 +1,32 @@
+<div class="cotanier-fluid mt-3">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-center">Welcome to Bank</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center">Open an Account</h2>
+    </div>
+    <div class="col p-2">
+      <a [routerLink]="['/apply', 'savings']" class="btn btn-block btn-warning"
+        >Savings Account</a
+      >
+    </div>
+    <div class="col p-2">
+      <a [routerLink]="['/apply', 'current']" class="btn btn-block btn-warning"
+        >Current Account</a
+      >
+    </div>
+  </div>
+  <div class="row mx-auto">
+    <div class="col-md-12">
+      <h2>Already have an account</h2>
+    </div>
+    <div class="col">
+      <a class="btn btn-block btn-warning" [routerLink]="['/viewAccount']">
+        View Account
+      </a>
+    </div>
+  </div>
+</div>
